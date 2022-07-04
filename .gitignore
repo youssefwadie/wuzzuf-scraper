@@ -1,0 +1,11 @@
+# Json output
+*.json
+
+# Compiled class file
+target/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
