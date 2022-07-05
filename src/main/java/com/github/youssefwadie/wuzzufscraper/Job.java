@@ -1,4 +1,4 @@
-package com.github.youssefwadie.wuzzufscrapper;
+package com.github.youssefwadie.wuzzufscraper;
 
 import java.net.URI;
 import java.util.HashMap;

@@ -1,11 +1,10 @@
-package com.github.youssefwadie.wuzzufscrapper;
+package com.github.youssefwadie.wuzzufscraper;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.LinkedList;
@@ -29,7 +28,7 @@ public class ParseService {
         return instance;
     }
 
-    public List<Job> search(String keyword) throws URISyntaxException, IOException {
+    public List<Job> search(String keyword) throws URISyntaxException {
         // better to use URI builder but this will be overkill for this small project
         URI uri = new URI(baseURI.getScheme(), baseURI.getAuthority(), "/search/jobs/", "q=" + keyword, baseURI.getFragment());
         String response = requestsManager.sendGET(uri);

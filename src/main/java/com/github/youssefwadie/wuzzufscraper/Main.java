@@ -1,4 +1,5 @@
-package com.github.youssefwadie.wuzzufscrapper;
+package com.github.youssefwadie.wuzzufscraper;
+
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

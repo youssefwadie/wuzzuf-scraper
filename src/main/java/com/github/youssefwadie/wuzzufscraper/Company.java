@@ -1,4 +1,4 @@
-package com.github.youssefwadie.wuzzufscrapper;
+package com.github.youssefwadie.wuzzufscraper;
 
 public class Company {
     private String title;
